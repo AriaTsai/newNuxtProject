@@ -1,0 +1,19 @@
+[data-span='1'] {
+  width: span(4);
+}
+
+[data-span='2'] {
+  width: span(3);
+}
+
+[data-span='3'] {
+  width: span(1);
+}
+
+[data-span] {
+  background: rgba(202, 25, 25, 0.87);
+  line-height: 50px;
+  color: white;
+  font-size: 1rem;
+  border: 1px solid black;
+}
