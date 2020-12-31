@@ -1,7 +1,9 @@
 <template>
-  <div class="container">
-    <p>Header</p>
-  </div>
+  <section>
+    <div class="container">
+      <p>Header</p>
+    </div>
+  </section>
 </template>
 
 <script>

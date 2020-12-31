@@ -1,0 +1,7 @@
+// @mixin 名稱(變數){動作}
+
+@mixin susy-breakpoint(
+  $config
+){
+  $config: susy-compile($config)
+}

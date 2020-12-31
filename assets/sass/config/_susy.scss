@@ -1,10 +1,11 @@
 //放置 susy map 的部分，包含斷點的設置都在這裡
 $susy: (
   'min-width': 0px,
-  'svg-grid-colors': hsl(180, 50%, 80%),
+  'svg-grid-colors': hsl(180, 50%, 80%), //背景網格輔助
   'columns': susy-repeat(12),
-  'gutters': 1/3,
+  'gutters': 0.25,
   'spread': 'narrow',
+  'container-spread': 'narrow',
 );
 
 $mobile: (

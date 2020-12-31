@@ -1,5 +1,5 @@
 [data-span='1'] {
-  width: span(4);
+  width: span(10);
 }
 
 [data-span='2'] {
@@ -11,9 +11,11 @@
 }
 
 [data-span] {
-  background: rgba(202, 25, 25, 0.87);
-  line-height: 50px;
-  color: white;
-  font-size: 1rem;
-  border: 1px solid black;
+  // @include susy-breakpoint($mobile) {
+  // }
+    background: rgba(202, 25, 25, 0.87);
+    line-height: 50px;
+    color: white;
+    font-size: 1rem;
+    border: 1px solid black;
 }

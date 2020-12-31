@@ -1,0 +1,20 @@
+$font-size: 13px
+$col-row: span(12)
+
+@mixin bg($bgcolor)
+  width: 100%
+  height: 300px
+  background: $bgcolor
+  font-size: $font-size
+
+.l-footer
+  +bg($darkGreen)
+  color: red
+  .col-row
+    width: $col-row
+    margin: 0 auto
+  &_left
+    width: span(4)
+  &_right
+    width: span(8)
+
