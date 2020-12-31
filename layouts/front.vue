@@ -1,8 +1,8 @@
 <template>
   <section>
-    <Header/>
+    <!-- <Header/> -->
       <Nuxt/>
-    <Footer/>
+    <!-- <Footer/> -->
   </section>
 </template>
 

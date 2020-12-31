@@ -1,27 +1,27 @@
 .col-container {
   background: susy-svg-grid() no-repeat scroll;
   max-width: 1280px;
-  margin: 0 gutter();
+  margin: 0 auto;
 }
 .col-row {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
-@mixin mobile {
-  @media (min-width: 0px) {
-    @content
-  }
-}
+// @mixin mobile {
+//   @media (min-width: 0px) {
+//     @content
+//   }
+// }
 
-@mixin pad {
-  @media (min-width: 800px) {
-    @content
-  }
-}
+// @mixin pad {
+//   @media (min-width: 800px) {
+//     @content
+//   }
+// }
 
-@mixin desktop{
-  @media (min-width: 1280px) {
-    @content
-  }
-}
+// @mixin desktop{
+//   @media (min-width: 1280px) {
+//     @content
+//   }
+// }
